@@ -2,7 +2,7 @@
 
 $paragrafo = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, accusantium!";
 
-$badword = "Lorem";
+$badword = $_GET["badword"];
 
 $nuovoParagrafo = str_replace($badword, "***", $paragrafo);
 
